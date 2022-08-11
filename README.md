@@ -10,7 +10,7 @@ Nerds only use the CLI, so why bother using an IDE when you can do the trick usi
 To run and open C++ files on the terminal, make sure to install GNU compiler. Then run `g++ quine.cpp` to compile the file. An output file with the extension .out (in my case it was a.out) will be created. Simply type `./a.out` to run the executable.
 
 ### .cs - C#
-To run and open C# files on Windows, use Microsoft Visual Studio. For Mac, first download and install Mono. Then compile the file using `mono quine.cs` and then run the executable file using `mono quine.exe`.
+To run and open C# files on Windows, use Microsoft Visual Studio. For Mac, first download and install Mono. Then compile the file using `mcs quine.cs` and then run the executable file using `mono quine.exe`.
 
 ### .html - HTML
 To run an HTML file simply use the command `open quine.html` on your terminal.
