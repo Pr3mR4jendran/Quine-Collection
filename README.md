@@ -22,16 +22,16 @@ To open a Java file on the terminal, make sure you first install the Java JDK. T
 To open a Javascript file on the terminal, make sure to have the Node.Js runtime installed. Then simply use the `node quine.js` to compile and execute your file.
 
 ### .m - Matlab
-I used an online compiler for this one, I'll figure out how to configure it using the CLI.
+To open a Matlab script on the terminal, make sure to install Matlab and then use the command `matlab -nodisplay -nosplash -nodesktop -r "run('path/to/your/script.m');exit;"` to execute your file.
 
 ### .pl - Prolog
-I used the online SWISH tool for this one, I'll figure out how to configure it using the CLI.
+I used the online SWISH tool for this one, unfortunately SWI-Prolog acts really weird on Mac. But for the most part, you should be able to execute your Prolog file using `swipl quine.pl`.
 
 ### .py - Python
 To open a Python file on the terminal, make sure to have Python (version 3.0 and above installed). Then simply use `python3 quine.py` to compile and execute your file.
 
 ### .r - R
-I used an online compiler for this one, I'll figure out how to configure it using the CLI.
+To open an R file on the terminal, make sure to download R. Then simply use the command `rscript quine.r` to compile and execute your script.
 
 ### .sh - Bash
 To open a Bash script on the terminal, simply use the command `sh quine.sh` to execute your script.
