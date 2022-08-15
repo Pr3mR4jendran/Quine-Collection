@@ -10,7 +10,7 @@ Nerds only use the CLI, so why bother using an IDE when you can do the trick usi
 To run and open C++ files on the terminal, make sure to install GNU compiler. Then run `g++ quine.cpp` to compile the file. An output file with the extension .out (in my case it was a.out) will be created. Simply type `./a.out` to run the executable.
 
 ### .cs - C#
-To run and open C# files on Windows, use Microsoft Visual Studio. For Mac, first download and install Mono. Then compile the file using `mcs quine.cs` and then run the executable file using `mono quine.exe`.
+To run and open C# files on Windows, download the .NET framework, set your Path environment variable to the directory containing the .NET framework then use the command `csc quine.cs` to compile the file and then run the executable using `quine.exe`. For UNIX systems, first download and install Mono. Then compile the file using `mcs quine.cs` and then run the executable file using `mono quine.exe`.
 
 ### .html - HTML
 To run an HTML file simply use the command `open quine.html` on your terminal.
@@ -25,7 +25,7 @@ To open a Javascript file on the terminal, make sure to have the Node.Js runtime
 To open a Matlab script on the terminal, make sure to install Matlab and then use the command `matlab -nodisplay -nosplash -nodesktop -r "run('path/to/your/script.m');exit;"` to execute your file.
 
 ### .pl - Prolog
-I used the online SWISH tool for this one, unfortunately SWI-Prolog acts really weird on Mac. But for the most part, you should be able to execute your Prolog file using `swipl quine.pl`.
+I used the online SWISH tool for this one, unfortunately SWI-Prolog acts really weird on the terminal. But for the most part, you should be able to execute your Prolog file using `swipl quine.pl`.
 
 ### .py - Python
 To open a Python file on the terminal, make sure to have Python (version 3.0 and above installed). Then simply use `python3 quine.py` to compile and execute your file.
