@@ -1,1 +1,1 @@
-echo "$BASH_COMMAND"
+echo $BASH_COMMAND
