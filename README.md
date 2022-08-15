@@ -1,6 +1,8 @@
 # Quine-Collection
 A quine is a program that takes no input and prints its own source code. This repository is a collection of quines in various programming and scripting languages.
 
+A special thanks goes to my colleagues Rohan Mitra and Samarth Rai for writing some of these scripts :D
+
 To compare the programs with their source code you should use `cat filename` on the terminal to view the source code and compare it with the output results.
 
 ## Tutorial on how to open the files using the CLI:
