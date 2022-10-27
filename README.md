@@ -9,7 +9,7 @@ To compare the programs with their source code you should use `cat filename` on 
 Nerds only use the CLI, so why bother using an IDE when you can do the trick using a few cli commands ;)
 
 ### .cpp - C++
-To run and open C++ files on the terminal, make sure to install GNU compiler. Then run `g++ quine.cpp` to compile the file. An output file with the extension .out (in my case it was a.out) will be created. Simply type `./a.out` to run the executable.
+To run and open C++ files on the terminal, make sure to install GNU compiler. Then run `g++ quine.cpp` to compile the file. An output file with the name a.out will be created. Simply type `./a.out` to run the executable.
 
 ### .cs - C#
 To run and open C# files on Windows, download the .NET framework, set your Path environment variable to the directory containing the .NET framework then use the command `csc quine.cs` to compile the file and then run the executable using `quine.exe`. For UNIX systems, first download and install Mono. Then compile the file using `mcs quine.cs` and then run the executable file using `mono quine.exe`.
